@@ -1,6 +1,9 @@
 - title: GitHub
   url: https://github.com/scottcodes
   icon: fab fa-github
-- title: LinkedIn
-  url: https://www.linkedin.com/in/scottlmitchell/
-  icon: fab fa-linkedin
+- title: Stack Overflow
+  url: https://stackexchange.com/users/21955797/scottcodes
+  icon: fab fa-stack-overflow
+- title: RSS Feed
+  url: https://scottcodes.net/feed.xml
+  icon: fas fa-rss
