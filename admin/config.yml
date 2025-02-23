@@ -1,0 +1,19 @@
+backend:
+  name: github
+  branch: main         # Your main branch; change if yours is different
+  repo: scottcodes/blog # Your repository name
+
+media_folder: "assets/uploads"  # Where your images and files will be saved
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "description", label: "Description", widget: "text" }
+      - { name: "body", label: "Body", widget: "markdown" }
