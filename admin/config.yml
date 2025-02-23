@@ -1,7 +1,8 @@
 backend:
   name: github
-  branch: main         # Your main branch; change if yours is different
-  repo: scottcodes/blog # Your repository name
+  branch: main         # or your default branch
+  repo: scottcodes/blog
+  client_id:  Ov23lik5IN8FIXuCaJZJ
 
 media_folder: "assets/uploads"  # Where your images and files will be saved
 public_folder: "/assets/uploads"
